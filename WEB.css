@@ -1,0 +1,362 @@
+
+/* Nguyễn Minh HIếu */
+
+
+header {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#home {
+  background-color: #fff;
+  margin: 0px 79px 0px 150px;
+}
+
+.u {
+  color: blue;
+}
+
+.i {
+  color: red;
+}
+
+.search input{
+  line-height: 36px; 
+}
+
+td {
+  padding: 0 130px;
+}
+
+#marquee {
+  color: orange;
+  background-color: papayawhip;
+}
+
+#demuc {
+  height: 58px;
+  background-color: #2b80dd;
+}
+ 
+#nav, .subnav {
+  list-style-type: none;
+  z-index: 1;
+}
+
+#nav > li {
+  display: inline-block;
+}
+
+#nav li {
+  position: relative;
+}
+
+#nav .subnav {
+  display: none;
+  position: absolute;
+  box-shadow: 0 0 10px black;
+  min-width: 300px;
+  top: 100%;
+  left: 0;
+}
+
+#nav .subnav a {
+  color: black;
+  padding: 8px;   
+}
+
+#nav > li > a {
+  color: white;
+  text-transform: uppercase;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 58px;
+  padding: 0 82px;
+  display: block;
+}
+
+#nav li:hover .subnav {
+  display: block;
+  padding: 0;
+}
+#nav .subnav li:hover a,
+#nav > li:hover > a {
+  color: black;
+  background-color: red;
+}
+
+#nav li:hover a {
+  background-color: cyan;
+}
+
+
+/* Nguyễn Thái Hoàng */
+
+
+.slide{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+  }
+  .slide:hover .dieuhuong{
+    display: block;
+  }
+  .chuyen-slide{
+    width: 50000px;
+    transition: all 0.5s;
+  }
+  .slide img{
+    width: 1000px;
+    height: 520px;
+    float:left;
+  }
+  .dieuhuong{
+    position: absolute;
+    color:tan;
+    font-size: 40px;
+    top: 47%;
+    padding-left: 15px;
+    display: none;
+  }
+  .dieuhuong i:last-child{
+    position: relative;
+    left: 880px;
+  }
+  .layout-item{
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .layout{
+    margin: 0 70px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 2fr 0fr 1fr ;
+    grid-template-rows: 256px 237px 1px;
+    grid-gap:5px;
+    grid-template-areas: 
+    "h1 h1 h2"
+    "h1 h1 h3";
+  }
+  .layout-item:first-child{
+    grid-area: h1;
+  }
+  .layout-item:nth-child(2){
+    grid-area: h2;
+  }
+  .layout-item:nth-child(3){
+    grid-area: h3;
+  }
+  .box1{
+    width: 90%;
+    height: 50px;
+    background-color: red;
+    border: 3px solid red;
+    margin: 0 auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .box1 h1{
+    margin: 0px;
+    color: white;
+  }
+  .box2{
+    width: 90%;
+    height: 450px;
+    background-color: whitesmoke;
+    border: 3px solid red;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px red;
+  }
+  .box2 img{ 
+    width: 200px;
+  }
+  .box2 .list{
+    margin: 0 auto;
+  }
+  .box2 .list .item{
+    background-color: white;
+    width: 280px;
+    height: 410px;
+    padding: 2px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-top: 17px;
+    margin-left: 12.5px;
+    text-align: center;
+  }
+
+
+/* Dương Văn Chiến */
+
+
+.headd{
+    background-color: #ccc;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 0 20px 0 20px;
+    width: 1000px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+   float: left;
+}
+.home-filter {
+    display: flex;
+    
+    align-items: center;
+    padding: 12px 12px;
+    border-radius: 10px;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+.home-filter__label {
+    font-size: 1rem;
+    color: rgb(241, 2, 2);
+    margin-right: 16px;
+}
+.home-filter__btn {
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255) !important;
+    margin-right: 5px;
+}
+h3{
+    line-height: 1.6em;
+    display: inline-block;
+    padding-top: .4em;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.img {
+   width: auto;
+}
+.list .card{
+    padding: 2px;
+    border: 1px solid #ccc;
+    box-shadow:  silver 0 0 16px;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn-icon{
+   border-color: #0d6efd !important; 
+   color: #0d6efd !important;
+   background-color: #ffff !important;
+   margin-right: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-gia{
+    text-align: center;
+    font-size: medium;
+}
+.box a{
+    
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important ;
+}
+.boxer {
+    background-color: #0d6efd !important;
+    color: rgb(255, 255, 255) ;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    padding: .375rem .75rem;
+    text-decoration: none ;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Nguyễn Trường Giang */
+.footer {
+  background-color: #0dcaf0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer .col {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 20px;
+}
+
+.footer__title {
+  color: var(--white-cl-1);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.footer__link,
+.footer__text {
+  display: block;
+  color: white;
+  font-size: 18px;
+  line-height: 2.4rem;
+  padding: 6px 0;
+  align-items: center;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: white;
+}
+
+.footer__text i,
+.footer__link i {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-right: 8px;
+}
+
+.social-group {
+  display: flex;
+}
+
+.social-item {
+  margin-right: 12px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin-top: 12px;
+  border-radius: 3px;
+}
+
+.social-item i {
+  font-size: 1.8rem;
+  color: #0d6efd;
+  margin: auto;
+}
+
+.social-item:hover {
+  background-color: black;
+  transition: all 0.3s;
+}
+
+.social-item:hover i {
+  color:white;
+  transition: all 0.3s;
+}

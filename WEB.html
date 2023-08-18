@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="WEB.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+<!--31_Nguyễn Minh Hiếu -->
+<header>
+  <div>
+    <div id="home">
+        <table>
+            <tr>
+                <td><a href="#">
+                    <img class="img" src="https://laptopaz.vn/media/banner/logo_laptopaz%20(2).jpg" alt="logo" width="179px" height="92px">
+                </a>
+                </td>
+                <td><form class="search" action="search">
+                    <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?">
+                    <button style="line-height: 36px;">Search</button>
+                </form></td>
+                <td><b><u class="u"> Hotline </u> <br> <i class="i"> 0123456789 </i> </b></td>
+                <td>
+                    <a href="giohang.html">
+                        <img src="https://nongcolongthanh.com/wp-content/uploads/2020/03/shopping-cart-icon-png-transparent-3.png" alt="logo" width="100px" height="85px">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="marquee">
+        <marquee behavior="" direction=""><i>Chào mừng mọi người đã đến website của chúng tôi</i></marquee>
+    </div>
+    <div id="demuc">
+        <ul id="nav">
+            <li>
+                <a href="#">Laptop Mới</a>
+                <ul class="subnav">
+                    <li><a href="#">Laptop Dell</a></li>
+                    <li><a href="#">Laptop Lenovo</a></li>
+                    <li><a href="#">Laptop Acer</a></li>
+                    <li><a href="#">Laptop HP</a></li>
+                    <li><a href="#">Laptop Asus</a></li>
+                    <li><a href="#">Laptop SAMSUNG</a></li>
+                    <li><a href="#">Laptop MSI</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Laptop Gaming</a>
+                <ul class="subnav">
+                    <li><a href="#">Dell Gaming</a></li>
+                    <li><a href="#">Lenovo Gaming</a></li>
+                    <li><a href="#">Acer Gaming</a></li>
+                    <li><a href="#">HP Gaming</a></li>
+                    <li><a href="#">Asus Gaming</a></li>
+                    <li><a href="#">MSI Gaming</a></li>
+                    <li><a href="#">Evoo Gaming</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Laptop Đồ Họa</a>
+                <ul class="subnav">
+                    <li><a href="#">Laptop Đồ Họa Dell</a></li>
+                    <li><a href="#">Laptop Đồ Họa HP</a></li>
+                    <li><a href="#">Laptop Đồ Họa Lenovo</a></li>
+                    <li><a href="#">Laptop Đồ Họa Acer</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Laptop Mỏng Nhẹ</a>
+                <ul class="subnav">
+                    <li><a href="#">Laptop HP</a></li>
+                    <li><a href="#">Laptop Dell</a></li>
+                    <li><a href="#">Laptop Asus</a></li>
+                    <li><a href="#">Laptop Acer</a></li>
+                    <li><a href="#">Laptop Lenovo</a></li>
+                    <li><a href="#">Laptop MSI</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Laptop Like New</a>
+                <ul class="subnav">
+                    <li><a href="#">Macbook</a></li>
+                    <li><a href="#">Laptop Sony Vaio</a></li>
+                    <li><a href="#">Netbook</a></li>
+                    <li><a href="#">Laptop Toshiba</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Linh Kiện Laptop</a>
+                <ul class="subnav">
+                    <li><a href="#">Màn hình Laptop</a></li>
+                    <li><a href="#">Ổ cứng Laptop</a></li>
+                    <li><a href="#">CPU Laptop</a></li>
+                    <li><a href="#">DVD Laptop</a></li>
+                    <li><a href="#">Pin Laptop</a></li>
+                    <li><a href="#">Wifi Lap Top</a></li>
+                    <li><a href="#">Pin Laptop</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+  </header>
+<!-- Nguyễn Thái Hoàng -->
+	<article>
+		<div class="layout">
+			<div class="layout-item">
+				<div class="slide">
+					<div class="dieuhuong">
+						<i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+						<i class="fa fa-chevron-circle-right" onclick="Next();"></i>
+					</div>
+					<div class="chuyen-slide">
+						<img  src="https://laptopaz.vn/media/banner/29_Aug501f25e647a66cf79fd77f50ef4cf460.jpg">
+						<img  src="https://laptopaz.vn/media/banner/29_Aug663bb47949607aa21c57e407ca3cb896.jpg">
+						<img  src="https://laptopaz.vn/media/banner/31_Jan8e7276c8ba31fc1ed7c1676ff701a365.png">
+						<img  src="https://laptopaz.vn/media/banner/01_Feb7803ca9beee4c232fe0ed7c9035f6f8d.jpg">
+						<img  src="https://laptopaz.vn/media/banner/03_Feb618b94a4eaf907a4f5fd7d2f36e6887b.jpg">
+						<img  src="https://laptopaz.vn/media/banner/28_Jan7fde47573b65a23d363e722f299e4d38.jpg">
+					</div>
+				</div>
+				<script type="text/javascript" src="WEB.js"></script>
+			</div>
+			<div class="layout-item">
+				<a href="huongdanmuahang.html" >
+					<img width="100%" height="100%" src="https://img.youtube.com/vi/8cJWMzX_-K8/hqdefault.jpg" >
+				</a>
+			</div>
+			<div class="layout-item">
+				<img width="100%" height="100%" src="https://laptopaz.vn/media/banner/12_Oct050b942f22238b15df5a5af139e7fcd5.jpg">
+			</div>
+		</div>
+		<div class="box1">
+			<h1>
+				<marquee behavior="alternate"> GIẢM GIÁ SỐC</marquee>
+			</h1>
+		</div>
+		<div class="box2">
+			<div class="list">
+				<div class="item">
+					<img src="https://cdn.discordapp.com/attachments/882477238015111238/882879615603978300/1.jpg" alt=""><br>
+					<span style="font-size: 20px"><a href="#">Acer Nitro 5 2021</a></span><br>
+					<p style="font-size: 15.5px">[Mới 100%] AN515-56-51N4 Core i5 -11300H, 8GB, 512GB, GTX1650, 15.6'' FHD 144Hz</p>
+					<strike> 21.390.000 </strike><br>
+					<strong style="font-size: 20px" ><mark> 20.180.900 </mark></strong>
+				</div>
+				<div class="item">
+					<img src="https://cdn.discordapp.com/attachments/882477238015111238/882879619425005619/2.jpg" alt=""><br>
+					<span style="font-size: 20px"><a href="#">Lenovo Ideapad Gaming 3</a></span><br>
+					<p style="font-size: 16px">[Mới 100%] 15IMH05 (Core i5-10300H, 8GB, 512GB, GTX 1650 4GB, 15.6 FHD 60Hz)</p>
+					<strike>19.490.000</strike><br>
+					<strong style="font-size: 20px" ><mark> 17.990.000 </mark></strong>
+				</div>
+				<div class="item">
+					<img src="https://cdn.discordapp.com/attachments/882477238015111238/882879624068091945/3.jpg" alt=""><br>
+					<span style="font-size: 20px"><a href="#">ASUS ROG ZEPHYRUS G14</a></span><br>
+					<p style="font-size: 16px">GA401IV-BR9N6 Ryzen 9-4900HS, 16GB, 1TB, RTX 2060 Max-Q, 14 FHD IPS 120Hz</p>
+					<strike>36.890.000</strike><br>
+					<strong style="font-size: 20px" ><mark> 27.990.000 </mark></strong>
+				</div>
+				<div class="item">
+					<img src="https://cdn.discordapp.com/attachments/882477238015111238/882919391883329536/4.jpg" alt=""><br>
+					<span style="font-size: 20px"><a href="#">Dell Precision 5520</a></span><br>
+					<p style="font-size: 15px">Core i7-7820HQ, 16GB, 512GB, VGA Quadro M1200, 15.6 inch FHD IPS Nhập USA</p>
+					<strike>24.990.000</strike><br>
+					<strong style="font-size: 20px" ><mark> 19.999.900 </mark></strong>
+				</div>
+				<div class="item">
+					<img src="https://cdn.discordapp.com/attachments/882477238015111238/882919396392181780/5.jpg" alt=""><br>
+					<span style="font-size: 20px"><a href="#">Dell Precision 5510</a></span><br>
+					<p style="font-size: 15px">[Mới 100%] Core i7-6820HQ, 8GB, 256GB, VGA Quadro M1000M, 15.6 inch FHD IPS</p>
+					<strike>20.890.000</strike><br>
+					<strong style="font-size: 20px" ><mark> 18.509.000 </mark></strong>
+				</div>
+			</div>
+		</div>
+	</article>
+<!-- Dương Văn Chiến -->
+    <div class="container">
+        <article>  
+          <div class="headd">
+            <div class="title"><h3>Laptop Gaming</h3></div>
+            <div class="home-filter">
+              <span class="home-filter__laber">Sắp xếp theo :</span>
+              <button class="home-filter__btn btn">Phổ biến</button>
+              <button class="home-filter__btn btn">Mới nhất</button>
+              <button class="home-filter__btn btn">Bán chạy</button>
+        
+          </div>
+          </div>
+              <div class="list">
+              <div class="card" style="width: 18rem;">
+                <img src="https://cdn.discordapp.com/attachments/882477238015111238/882879615603978300/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Laptop Acer Nitro 5 2021</h5>
+                  <p class="card-text">Core i5 - 11300H, 8GB, 512GB, GTX 1650, 15.6 FHD 144Hz</p>
+                  <p class="card-gia"><b>21.980.000</b></p>
+                  <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                  <a href="gaming/Acer.html" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+              </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.discordapp.com/attachments/882477238015111238/882879619425005619/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Lenovo Ideapad 3 15IMH05</h5>
+                    <p class="card-text">i5-10300H
+                         8GB, 512GB ,GTX 1650 4Gb
+                          15.6 inch 60Hz</p>
+                    <p class="card-gia"><b>18.690.000 </b></p>
+                    <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="gaming/Lenovo.html" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.discordapp.com/attachments/882477238015111238/882879624068091945/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">ASUS ROG ZEPHYRUS G14</h5>
+                    <p class="card-text">9-5900HS, 16GB, 1TB, RTX 3070, 15.6'' WQHD 165Hz</p>
+                    <p class="card-gia"><b>48.690.000 </b></p>
+                    <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="gaming/ASUS.html" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+              </div>
+              </div>  
+              <div class="boxer">
+                <div class="box" >
+                  <a href="#">Xem Thêm</a>
+                 </div>
+              </div>
+            </article>
+            <article>  
+              <div class="headd">
+                <div class="title"><h3>Laptop Đồ Họa</h3></div>
+                <div class="home-filter">
+                  <span class="home-filter__laber">Sắp xếp theo :</span>
+                  <button class="home-filter__btn btn">Phổ biến</button>
+                  <button class="home-filter__btn btn">Mới nhất</button>
+                  <button class="home-filter__btn btn">Bán chạy</button>
+            
+              </div>
+              </div>
+                  <div class="list">
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.discordapp.com/attachments/882477238015111238/882919391883329536/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dell Precision 5520</h5>
+                      <p class="card-text">Core i7-7820HQ, 16GB, 512GB, VGA Quadro M1200, 15.6 inch FHD</p>
+                      <p class="card-gia"><b>24.990.000</b></p>
+                      <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                      <a href="đồ họa/Dell Precision 5520.html" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                  </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn.discordapp.com/attachments/882477238015111238/882919396392181780/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Dell Precision 5510</h5>
+                        <p class="card-text">Core i7-6820HQ, 8GB, 256GB, VGA Quadro M1000M, 15.6 inch FHD</p>
+                        <p class="card-gia"><b>20.890.000 </b></p>
+                        <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="đồ họa/Dell Precision 5510.html" class="btn btn-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.discordapp.net/attachments/882477238015111238/882919398875213864/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">HP OMEN 15 2020</h5>
+                        <p class="card-text">Ryzen 7 - 4800H, 8GB, 512GB, VGA 6GB GTX 1660Ti, 15.6 FHD 144Hz</p>
+                        <p class="card-gia"><b>32.890.000 </b></p>
+                        <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="đồ họa/HP OMEN 15 2020.html" class="btn btn-primary">Xem chi tiết</a>
+                        </div>
+                  </div>
+                  </div>  
+                  <div class="boxer">
+                    <div class="box" >
+                      <a href="#">Xem Thêm</a>
+                     </div>
+                  </div>
+                </article>
+                <article>  
+                  <div class="headd">
+                    <div class="title"><h3>Laptop Like New</h3></div>
+                    <div class="home-filter">
+                      <span class="home-filter__laber">Sắp xếp theo :</span>
+                      <button class="home-filter__btn btn">Phổ biến</button>
+                      <button class="home-filter__btn btn">Mới nhất</button>
+                      <button class="home-filter__btn btn">Bán chạy</button>
+                
+                  </div>
+                  </div>
+                      <div class="list">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://laptopaz.vn/media/product/1088_9360_bo_vien.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Laptop cũ Dell XPS 13-9360</h5>
+                          <p class="card-text">Core i5-7200U, 8GB, 256GB, VGA Intel HD Grapics 620, 13.3 inch FHD IPS</p>
+                          <p class="card-gia"><b>16.499.000</b></p>
+                          <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                          <a href="http://127.0.0.1:5500/LIKE%20NEW/Laptop%20c%C5%A9%20Dell%20XPS%2013-9360.html" class="btn btn-primary">Xem chi tiết</a>
+                        </div>
+                      </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://laptopaz.vn/media/product/2064_" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">ASUS ROG STRIX G17 (2021)</h5>
+                            <p class="card-text"> Ryzen 7-5800H, 16GB, 1TB, RTX 3070, 17.3'' FHD 300Hz</p>
+                            <p class="card-gia"><b>46.899.000 </b></p>
+                            <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="http://127.0.0.1:5500/LIKE%20NEW/Laptop%20ASUS%20ROG%20STRIX%20G17.html" class="btn btn-primary">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://laptopaz.vn/media/product/2158_" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">LENOVO THINKPAD P51</h5>
+                            <p class="card-text">Core i7-7820HQ, 16GB, 512GB, VGA 4GB NVIDIA Quadro M2200M, 15.6 inch FHD</p>
+                            <p class="card-gia"><b>24.599.000 </b></p>
+                            <a href="#" class="btn btn-icon"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="http://127.0.0.1:5500/LIKE%20NEW/LENOVO%20THINKPAD%20P51.html" class="btn btn-primary">Xem chi tiết</a>
+                            </div>
+                      </div>
+                      </div>  
+                      <div class="boxer">
+                        <div class="box" >
+                          <a href="#">Xem Thêm</a>
+                         </div>
+                      </div>
+                    </article>
+            </div> 
+<!-- Nguyễn Trường Giang -->
+<div class="footer">
+  <div class="grid wide">
+      <div class="row">
+          <div class="col l-3 m-6 s-12">
+              <h3 class="footer__title">Menu</h3>
+              <ul class="footer__list" style="padding-left: 1rem; list-style-type: none;" >
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Trang chủ</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Máy Macbook</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Laptop Gaming</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Máy tính cũ giá rẻ</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Máy tính văn phòng</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col l-3 m-6 s-12">
+              <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+              <ul class="footer__list" style="padding-left: 1rem; list-style-type: none;" >
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Chính sách mua hàng</a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">Chính sách đổi trả</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col l-3 m-6 s-12">
+              <h3 class="footer__title">Liên hệ</h3>
+              <ul class="footer__list" style="padding-left: 1rem; list-style-type: none;" >
+                  <li class="footer__item">
+                      <span class="footer__text">
+                              <i class="fas fa-map-marked-alt"></i> Phố Viên- Bắc Từ Liêm- Tp. Hà Nội
+                          </span>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">
+                          <i class="fas fa-phone"></i> 0354117902
+                      </a>
+                  </li>
+                  <li class="footer__item">
+                      <a href="#" class="footer__link">
+                          <i class="fas fa-envelope"></i> 1921050206@student.humg.edu.vn
+                      </a>
+                  </li>
+                  <li class="footer__item">
+                      <div class="social-group">
+                          <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                              </a>
+                          <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                              </a>
+                          <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                              </a>
+                          <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                              </a>
+                          <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                              </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+          <div class="col l-3 m-6 s-12">
+              <h3 class="footer__title">Đăng kí</h3>
+              <ul class="footer__list" style="padding-left: 1rem; list-style-type: none;" >
+                  <li class="footer__item">
+                      <span class="footer__text">Đăng ký để nhận được được thông tin ưu đãi mới nhất từ chúng tôi.</span>
+                  </li>
+                  <li class="footer__item">
+                      <div class="send-email">
+                          <input class="send-email__input" type="email" placeholder="Nhập Email...">
+                          <a href="#" class="send-email__link">
+                              <i class="fas fa-paper-plane"></i>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div> 
+</body>
+
+</html>
