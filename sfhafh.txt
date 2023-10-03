@@ -1,2 +1,6 @@
 hàkjfa
+<<<<<<< HEAD
 pham duc manh
+=======
+ihadhak
+>>>>>>> 20910773bf6c1bccbf214ebc1afd90d289350837
